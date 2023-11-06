@@ -5,8 +5,6 @@ import Forecast from "./components/forecast/forecast";
 import CurrentWeather from "./components/currentweather/current-weather";
 import { WEATHER_API_KEY, WEATHER_API_URL } from "./util/api";
 
-const clientId = "4ae8bb826d4aa3211306011611fbbec9";
-
 function App() {
   const [currentWeather, setCurrentWeather] = useState(null);
   const [forecast, setForecast] = useState(null);
